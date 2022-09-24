@@ -22,7 +22,6 @@
         user_r --> DB : salva o usuario no banco 
         return usuario salvo
         user_r --> user_s: usuario salvo
-        ref over user_s: userRegistrationEvent 
         user_s --> user_c: usuario salvo 
         user_c --> resource_api: userDto salvo 
 else email ja cadastrado  
