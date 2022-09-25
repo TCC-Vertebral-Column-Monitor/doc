@@ -20,14 +20,17 @@ database Database as DB
 user -> app : formulario de cadastro 
 app -> client : dados cadastrais 
 client -> resource_api: solicitação de \n cadastro  de usuario 
-ref over resource_api, DB:  RegisterUserSequence
-    resource_api --> client: userDto Salvo
+ref over resource_api, DB:  cadastro-back-end
+alt sucesso 
+    resource_api --> client: userSummary
     client --> app: confirmar email 
     app --> user : confirmar email 
-    resource_api --> client: erro
+else error  
+    resource_api --> client: problemDetails
     client --> app : erro
     app --> user: erro
-
+end
+    
 
 @enduml
 

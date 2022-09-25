@@ -1,6 +1,7 @@
 # Doc
 
-## UseCase
+<details>
+<summary> UseCase </summary>
 
 login/cadastro
 
@@ -23,8 +24,9 @@ ver historico de objetivos ??
 
 
 atualizar configurações ??
-
-## Sequencia
+</details>
+<details>
+<summary> Sequencia</summary>
 
 cadastro
 
@@ -46,5 +48,14 @@ requisição de token
 leitura
 
 ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+</details>
 
+<details>
+  <summary>Domain model</summary>
+ [uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+ </details>
+
+<!-- <details> -->
+<!--   <summary> </summary> -->
+<!-- </details> -->
 <!-- ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=) -->

@@ -24,7 +24,7 @@
         user_r --> user_s: usuario salvo
         user_s --> user_c: usuario salvo 
         user_c --> resource_api: userDto salvo 
-else email ja cadastrado  
+    else email ja cadastrado  
     user_s --> user_c: erro 
     user_c --> resource_api: erro
 
