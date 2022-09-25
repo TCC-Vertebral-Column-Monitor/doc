@@ -1,0 +1,27 @@
+@startuml
+class User{
+    String name
+    String email
+    String password
+    boolean confirmed
+    Date createdAt
+    Date birthDate 
+  }
+class UserSettings{
+    int calibration 
+    Intensity intensity
+    boolean notify
+    boolean notifyVibrate
+    int vibrateIntensity
+  }
+class Training{
+    period period 
+    intensity intensity
+  }
+class Readout{
+    int cervival
+    int dorsal
+    date timestamp
+  }
+@enduml
+

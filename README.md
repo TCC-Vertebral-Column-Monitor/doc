@@ -55,6 +55,11 @@ leitura
  [uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
  </details>
 
+<details>
+  <summary>Representation model</summary>
+ [uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+ </details>
+
 <!-- <details> -->
 <!--   <summary> </summary> -->
 <!-- </details> -->
