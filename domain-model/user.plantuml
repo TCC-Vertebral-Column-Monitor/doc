@@ -1,5 +1,12 @@
 @startuml
+left to right direction 
 
+User "1" *-- "1" UserSettings
+User "1" -- "*"  Training 
+User "1" -- "*" Readout
+Training "1" *-- "*" Readout
+Role "1" *-- "*" Permission 
+User "*" *-- "*" Role 
 class User{
     String name
     String email
@@ -34,13 +41,5 @@ class Readout{
     int dorsal
     date timestamp
   }
-
-User "1" *-- "1" UserSettings
-User "1" -- "*"  Training 
-User "1" -- "*" Readout
-Training "1" *-- "*" Readout
-Role "1" *-- "*" Permission 
-User "*" *-- "*" Role 
-
 @enduml
 
