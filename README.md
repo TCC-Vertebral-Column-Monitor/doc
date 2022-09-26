@@ -52,12 +52,16 @@ leitura
 
 <details>
   <summary>Domain model</summary>
- [uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+  
+  
+ ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/TCC-Vertebral-Column-Monitor/doc/main/domain-model/user.plantuml)
+ 
+ 
  </details>
 
 <details>
   <summary>Representation model</summary>
- [uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+ ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
  </details>
 
 <!-- <details> -->
