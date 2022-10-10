@@ -1,7 +1,7 @@
 @startuml
 left to right direction 
 
-User "1" *-- "1" UserSettings
+User "1" *-down- "1" UserSettings
 User "1" -- "*"  Training 
 Role "1" *-- "*" Permission 
 User "*" *-- "*" Role 
