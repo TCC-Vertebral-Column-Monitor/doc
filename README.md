@@ -44,12 +44,7 @@ requisição de token
 
 
 ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/TCC-Vertebral-Column-Monitor/doc/main/sequence/auth.plantuml)
-
-leitura
-
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
 </details>
-
 <details>
   <summary>Domain model</summary>
   
@@ -64,6 +59,15 @@ leitura
  ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
  </details>
 
+<details>
+  <summary>embedded system class diagram</summary>
+ ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+ </details>
+
+
+@startuml
+bot-> alice:hello
+@enduml
 <!-- <details> -->
 <!--   <summary> </summary> -->
 <!-- </details> -->

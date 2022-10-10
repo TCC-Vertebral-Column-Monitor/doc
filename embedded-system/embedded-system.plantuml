@@ -1,0 +1,43 @@
+@startuml
+left to right direction 
+
+User "1" *-- "1" UserSettings
+User "1" -- "*"  Training 
+Role "1" *-- "*" Permission 
+User "*" *-- "*" Role 
+class User{
+    String name
+    String email
+    String password
+    Date createdAt
+    Date birthDate 
+  }
+
+class Role {
+    
+  }
+
+class Permission{
+    string name 
+    string description 
+  }
+
+class UserSettings{
+    int  normalDorsalAngle    
+    int  normalCervicalAngle  
+    Intensity intensity
+    boolean notify
+    boolean notifyVibrate
+    int vibrateIntensity
+  }
+class Training{
+    period period 
+    intensity intensity
+  }
+enum Intensity{
+    LOW,
+    MEDIUM,
+    HIGHT,
+  }
+@enduml
+
