@@ -35,8 +35,8 @@ class Training{
     period period 
     intensity intensity
   }
-enum Intensity{
-    LOW,
+class Intensity{
+    LOW
     MEDIUM
     HIGHT
   }
