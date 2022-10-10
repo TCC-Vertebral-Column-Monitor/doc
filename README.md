@@ -65,9 +65,6 @@ requisição de token
  </details>
 
 
-@startuml
-bot-> alice:hello
-@enduml
 <!-- <details> -->
 <!--   <summary> </summary> -->
 <!-- </details> -->
