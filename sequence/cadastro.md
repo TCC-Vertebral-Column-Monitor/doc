@@ -16,7 +16,7 @@ app -> client : dados cadastrais
 client -> resource_api: solicitação de \n cadastro  de usuario 
 ref over resource_api, DB:  cadastro-back-end
 alt sucess 
-    resource_api --> client: userSummary
+    resource_api --> client: UserRegisteredMessage
     client --> app: confirmar email 
     app --> user : confirmar email 
 else error  

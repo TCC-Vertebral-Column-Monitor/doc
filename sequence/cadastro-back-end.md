@@ -11,9 +11,9 @@
 
     end box        
     database Database as DB
-    resource_api -> user_c : registerUser(userDto) 
-    user_c -> user_s : registerUser(userEntity)
-    user_s -> user_r: findByEmail(email) 
+    resource_api -> user_c : registerUser(RegisterRequest) 
+    user_c -> user_s : registerUser(UserEntity)
+    user_s -> user_r: findByEmail(String) 
     user_r -> DB : consulta usuario pelo email
     return retorno da consulta
     user_r --> user_s : retorno da consulta
@@ -23,7 +23,7 @@
         return usuario salvo
         user_r --> user_s: usuario salvo
         user_s --> user_c: usuario salvo 
-        user_c --> resource_api: userDto salvo 
+        user_c --> resource_api: userRegisterdMessage  
     else email ja cadastrado  
     user_s --> user_c: erro 
     user_c --> resource_api: erro
